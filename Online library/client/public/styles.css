@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 175, 175, 1);
+    font-family: 'Inter', sans-serif;
+    color: #794848;
+}
+.app{
+    height: 100%;
+}
+
+.logo-title{
+    text-align: center;
+    font-size: 15px;
+    margin: 30px;
+    color: white;
+}
+.home{
+    text-align: center;
+}
+.home-text{
+    text-align: start;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15%;
+    color: #794848;
+}
+
+
+.home-text:hover{
+    transition: all 0.4s ease-in-out;
+    color: white;
+}
+
+.library{
+    padding: 100px 90px 0px 90px;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+.book-item{
+   width: 200px;
+   margin: 20px;
+}
+.book-item img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+.book-name{
+    text-align: center;
+    color: #794848;
+    font-weight: 700;
+   font-size: 20px;
+}
+
+.book-detail{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 120px;
+    justify-content: center;
+}
+.detail-img{
+    width: 300px;
+    border-radius: 15px;
+}
+.detail-content{
+    padding-left: 30px;
+    width: 600px;
+}
+
+.btn-link{
+    text-decoration: none;
+}
+.btn{
+    margin: 0 10px;
+}
+
+.text-edit{
+    border: 1px dotted black;
+}
+.add-book-btn{
+    text-align: center;
+   
+}
+.add-book{
+    margin: 10px auto;
+    width: 300px;
+}
+.add-book{
+    text-align: right;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.add-book div{
+    margin: 10px 0;
+}
+.center{
+    text-align: center;
+}
